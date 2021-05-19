@@ -147,9 +147,9 @@ export default class FaqAccordian extends React.Component<IFaqAccordianProps, IF
       pageCount = Math.ceil(this.state.listItems.length / pageCountDivisor);
     }
 
-    // for (let i = 0; i < pageCount; i++) {
-    //   pageButtons.push(<PrimaryButton onClick={() => { _pagedButtonClick(i + 1, listItems); }}> {i + 1} </PrimaryButton>);
-    // }
+     for (let i = 0; i < pageCount; i++) {
+       pageButtons.push(<PrimaryButton onClick={() => { _pagedButtonClick(i + 1, listItems); }}> {i + 1} </PrimaryButton>);
+     }
 
 
 
