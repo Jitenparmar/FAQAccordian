@@ -76,11 +76,12 @@
 .accordion__item .accordion__title h3 {
     font-weight: normal;
     width: 100%;
+    color: white;
 	margin: 7px 0px!important;
 }
 .accordion__item .accordion__body {
 padding: 15px 20px;
-background-color: #ffeded!important;
+background-color: white!important;
 color: "[theme: bodyText, default: #333333]";
 }
 
