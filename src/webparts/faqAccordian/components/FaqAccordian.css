@@ -80,7 +80,7 @@
 	margin: 7px 0px!important;
 }
 .accordion__item .accordion__body {
-padding: 15px 20px;
+padding: 0px 5px;
 background-color: white!important;
 color: "[theme: bodyText, default: #333333]";
 }
